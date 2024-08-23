@@ -7,7 +7,7 @@
     const sticky = ud_header.offsetTop;
     const logo = document.querySelector(".header-logo");
 
-    if (window.pageYOffset > sticky) {
+    if (window.scrollY > sticky) {
       ud_header.classList.add("sticky");
     } else {
       ud_header.classList.remove("sticky");
@@ -15,9 +15,9 @@
 
     // === logo change
     if (ud_header.classList.contains("sticky")) {
-      logo.src = "assets/images/logo/Print_Transparent.svg";
+      logo.src = "/assets/PF TOOLKIT & BRAND ASSETS/THE LOGO VECTOR PNG/PF LOGO CIRCLE FORMAT/PF LOGO CIRCLE FULL COLOUR WHITE.png";
     } else {
-      logo.src = "assets/images/logo/Print_Transparent.svg";
+      logo.src = "/assets/PF TOOLKIT & BRAND ASSETS/THE LOGO VECTOR PNG/PF LOGO CIRCLE FORMAT/PF LOGO CIRCLE FULL COLOUR WHITE.png";
     }
 
     // show or hide the back-top-top button

@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Gotham:wght@300;400;500;700&display=swap");
 /*
 ! tailwindcss v3.0.15 | MIT License | https://tailwindcss.com
 */
@@ -1117,7 +1116,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .border-primary {
   --tw-border-opacity: 1;
-  border-color: rgb(48 86 211 / var(--tw-border-opacity));
+  border-color: rgb(50 30 68 / var(--tw-border-opacity)); /* Updated primary color */
 }
 
 .border-\[\#D4DEFF\] {
@@ -1127,7 +1126,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .border-\[\#F3F4FE\] {
   --tw-border-opacity: 1;
-  border-color: rgb(243 244 254 / var(--tw-border-opacity));
+  border-color: rgb(149 143 197  / var(--tw-border-opacity));
 }
 
 .border-opacity-40 {
@@ -1149,7 +1148,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(48 86 211 / var(--tw-bg-opacity));
+  background-color: rgb(50 30 68 / var(--tw-bg-opacity)); /* Updated primary color */
 }
 
 .bg-\[\#f5f8ff\] {
@@ -1159,12 +1158,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-black {
   --tw-bg-opacity: 1;
-  background-color: rgb(33 43 54 / var(--tw-bg-opacity));
+  background-color: rgb(35 31 32 / var(--tw-bg-opacity)); /* Updated dark color */
 }
 
 .bg-\[\#f3f4fe\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(243 244 254 / var(--tw-bg-opacity));
+  background-color: rgb(149 143 197  / var(--tw-bg-opacity));
 }
 
 .bg-\[\#13C296\] {
@@ -1174,12 +1173,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-secondary {
   --tw-bg-opacity: 1;
-  background-color: rgb(19 194 150 / var(--tw-bg-opacity));
+  background-color: rgb(244 119 33 / var(--tw-bg-opacity)); /* Updated secondary color */
 }
 
 .bg-\[\#f3f4ff\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(243 244 255 / var(--tw-bg-opacity));
+  background-color: rgb(149 143 197 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#afb2b5\] {
@@ -1189,7 +1188,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-\[\#F4F7FF\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(244 247 255 / var(--tw-bg-opacity));
+  background-color: rgb(149 143 197  / var(--tw-bg-opacity));
 }
 
 .bg-\[\#FCFDFE\] {
@@ -1229,15 +1228,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .from-dark-700 {
-  --tw-gradient-from: #090e34b3;
-  --tw-gradient-stops: var(--tw-gradient-from),
-    var(--tw-gradient-to, rgb(9 14 52 / 0));
+  --tw-gradient-from: #231f20b3;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(35 31 32 / 0)); /* Updated dark color */
 }
 
+
 .from-primary {
-  --tw-gradient-from: #3056d3;
-  --tw-gradient-stops: var(--tw-gradient-from),
-    var(--tw-gradient-to, rgb(48 86 211 / 0));
+  --tw-gradient-from: #4b5daa;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(75 93 170 / 0)); /* Updated primary color */
 }
 
 .to-transparent {
@@ -1559,7 +1557,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-body-color {
   --tw-text-opacity: 1;
-  color: rgb(99 115 129 / var(--tw-text-opacity));
+  color: rgb(33 43 54 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -1583,7 +1581,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-primary {
   --tw-text-opacity: 1;
-  color: rgb(48 86 211 / var(--tw-text-opacity));
+  color: rgb(50 30 68 / var(--tw-text-opacity)); /* Updated primary color */
 }
 
 .text-\[\#cdced6\] {
@@ -1727,7 +1725,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Gotham', sans-serif;
 }
 
 .sticky {
@@ -1768,7 +1766,7 @@ body {
 
 .sticky #navbarCollapse li a:hover {
   --tw-text-opacity: 1;
-  color: rgb(48 86 211 / var(--tw-text-opacity));
+  color: rgb(75 93 170/ var(--tw-text-opacity));
   opacity: 1;
 }
 
@@ -1778,7 +1776,7 @@ body {
 
 .sticky #navbarCollapse li .ud-menu-scroll.active {
   --tw-text-opacity: 1;
-  color: rgb(48 86 211 / var(--tw-text-opacity));
+  color: rgb(244 119 33 / var(--tw-text-opacity));
   opacity: 1;
 }
 
@@ -1795,7 +1793,7 @@ body {
 
 .sticky .signUpBtn {
   --tw-bg-opacity: 1;
-  background-color: rgb(48 86 211 / var(--tw-bg-opacity));
+  background-color: rgb(9 14 52 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -1918,7 +1916,7 @@ body {
 
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
-  color: rgb(48 86 211 / var(--tw-text-opacity));
+  color: rgb(75 93 170 / var(--tw-text-opacity));
 }
 
 .hover\:text-dark:hover {
