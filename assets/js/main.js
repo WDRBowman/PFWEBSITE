@@ -15,9 +15,9 @@
 
     // === logo change
     if (ud_header.classList.contains("sticky")) {
-      logo.src = "/assets/PF TOOLKIT & BRAND ASSETS/THE LOGO VECTOR PNG/PF LOGO CIRCLE FORMAT/PF LOGO CIRCLE FULL COLOUR WHITE.png";
+      logo.src = "/assets/BRAND_ASSETS/THE_LOGO_PNG/PF_LOGO_CIRCLE_FORMAT/PF_LOGO_CIRCLE_FULL_COLOUR_WHITE.png";
     } else {
-      logo.src = "/assets/PF TOOLKIT & BRAND ASSETS/THE LOGO VECTOR PNG/PF LOGO CIRCLE FORMAT/PF LOGO CIRCLE FULL COLOUR WHITE.png";
+      logo.src = "/assets/BRAND_ASSETS/THE_LOGO_PNG/PF_LOGO_CIRCLE_FORMAT/PF_LOGO_CIRCLE_FULL_COLOUR_WHITE.png";
     }
 
     // show or hide the back-top-top button
