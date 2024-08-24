@@ -1321,8 +1321,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-14 {
@@ -1395,7 +1395,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .pt-\[120px\] {
-  padding-top: 120px;
+  padding-top: 180px;
 }
 
 .pb-\[100px\] {
@@ -1787,7 +1787,7 @@ body {
 
 .sticky .loginBtn:hover {
   --tw-text-opacity: 1;
-  color: rgb(48 86 211 / var(--tw-text-opacity));
+  color: rgb(244 119 33   / var(--tw-text-opacity));
   opacity: 1;
 }
 
@@ -2175,16 +2175,16 @@ body {
   }
 
   .md\:py-\[120px\] {
-    padding-top: 120px;
+    padding-top: 180px;
     padding-bottom: 120px;
   }
 
   .md\:pt-\[130px\] {
-    padding-top: 130px;
+    padding-top: 180px;
   }
 
   .md\:pt-\[120px\] {
-    padding-top: 120px;
+    padding-top: 180px;
   }
 
   .md\:text-2xl {
@@ -2253,7 +2253,7 @@ body {
   }
 
   .lg\:mt-\[60px\] {
-    margin-top: 60px;
+    margin-top: 120px;
   }
 
   .lg\:ml-auto {
@@ -2387,7 +2387,7 @@ body {
   }
 
   .lg\:py-6 {
-    padding-top: 1.5rem;
+    padding-top: 2rem;
     padding-bottom: 1.5rem;
   }
 
@@ -2427,7 +2427,7 @@ body {
   }
 
   .lg\:py-10 {
-    padding-top: 2.5rem;
+    padding-top: 3.5rem;
     padding-bottom: 2.5rem;
   }
 
@@ -2449,15 +2449,15 @@ body {
   }
 
   .lg\:pt-\[160px\] {
-    padding-top: 160px;
+    padding-top: 200px;
   }
 
   .lg\:pt-\[120px\] {
-    padding-top: 120px;
+    padding-top: 180px;
   }
 
   .lg\:pb-\[120px\] {
-    padding-bottom: 120px;
+    padding-bottom: 200px;
   }
 
   .lg\:pb-20 {
@@ -2572,7 +2572,7 @@ body {
   }
 
   .xl\:p-\[70px\] {
-    padding: 70px;
+    padding: 120px;
   }
 
   .xl\:p-12 {
@@ -2605,7 +2605,7 @@ body {
   }
 
   .\32xl\:p-\[60px\] {
-    padding: 60px;
+    padding: 120px;
   }
 
   .\32xl\:text-\[40px\] {
